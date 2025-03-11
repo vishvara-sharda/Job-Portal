@@ -1,0 +1,30 @@
+.divide{
+    display:flex;
+    justify-content: stretch;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+
+    
+
+    
+
+
+
+}
+.divide ul{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 49%;
+}
+.logo{
+    color: white;
+    width: 12%;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    background-color: #2E34E1;
+    border-radius: 33.5px;
+    
+    
+}

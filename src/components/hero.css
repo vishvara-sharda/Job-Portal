@@ -1,0 +1,9 @@
+.rectangle {
+    border-width: 5px;
+   
+}
+.rectangle img{
+   
+    width:100vw;
+    height:50vh;
+}
