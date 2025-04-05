@@ -9,7 +9,6 @@ app.use(express.json());
 //Routes 
 const jobRoutes = require("./routes/filteredjobs");
 const registerRoute = require("./routes/userRegister");
-// const loginRoute = require("./routes/userlogin");
 const authRoutes = require("./routes/auth");
 const profile = require("./routes/userProfile")
 
@@ -29,7 +28,6 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/jobs", jobRoutes);
-// app.use("/api/usersLogin", loginRoute);
 app.use("/api/auth", authRoutes);
 app.use("/api/usersRegister", registerRoute);
 app.use("/api/profile",profile)
